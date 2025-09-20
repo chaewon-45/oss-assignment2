@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("안녕하세요!")
+
+        let sum=0;
+        for(let i=0;i<=100;i++){
+            sum+=i;
+        }
+
+        alert("0부터 100까지 더하면: "+sum+"입니다.")
+
+         var aaa=0;//아무때나 선언 가능
+         let bbb=0;
+         const ccc=0;//상수 역할
+
+         console.log("javascript는 java와는 완전히 다른 언어입니다.")
+
+         //setTimeout(function(){alert{112233};},1000);//1000ms 후에서 112233 표시
+
+         let obj={
+            phone: "010-2222-2222",
+            stdnum: "22300392",
+            morningrun: function(){
+                alert("저는 새벽에 달리겠습니다.");
+            }
+         };
+         obj.name="객체 이름이야.";
+         obj["title"]="객체 제목이야.";
+         console.log(obj.name);
+
+    </script>
+    
+</body>
+</html>
